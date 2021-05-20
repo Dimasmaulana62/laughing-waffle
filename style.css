@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+form {
+    display: none;
+}
+
+
+@media screen and (max-width:780px){
+
+	form {
+        margin-top: 125px;
+		display: block;
+        list-style-type: none;
+    }
+
+    button {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
